@@ -24,5 +24,4 @@ The PSIs for Lot 1, Lot 2, and for all three lots together are not statistically
 I would recommend testing whether MechaCar cars have significantly better highway fuel efficiency than their competitors.
 In this case, the null hypothesis would be that MechaCar cars and competitor cars do not have significantly different highway fuel efficiencies.
 I would use a two-sided t-test to perform this analysis because I would need to compare the distribution means from two samples (MechaCars and competitors).
-
-4. What data is needed to run the statistical test?
+In order to run this test, I would need highway fuel efficiency data for MechaCars and fuel efficiency data across a set of competitors. We could use this data to determine the means of each population we're interested in.
