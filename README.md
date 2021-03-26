@@ -9,12 +9,14 @@
 ## Summary Statistics on Suspension Coils
 ![Lot summary](https://github.com/secicciari/MechaCar_Statistical_Analysis/blob/main/resources/lot_summary.PNG)
 ![Total summary](https://github.com/secicciari/MechaCar_Statistical_Analysis/blob/main/resources/total_summary.PNG)
+
 Based on the current manufacturing data as shown above, across the manufacturing lots in total the design specification is being met because the variance is 62.3 PSI, which is less than 100.
 However, when we look at Lot 3 individually it does not appear to meet the specification, because the variance is 170.3 PSI.
 
 ## T-Tests on Suspension Coils
 Based on the t-tests I performed below, Lot 3 is the only lot where the PSI is statistically different than the population mean. 0.04% is smaller than our assumed significance level of 0.05%, so there is sufficient evidence to reject our null hypothesis in the case.
 The PSIs for Lot 1, Lot 2, and for all three lots together are not statistically different from the population mean.
+
 ![Total t-test](https://github.com/secicciari/MechaCar_Statistical_Analysis/blob/main/resources/total_ttest.PNG)
 ![Lot1 t-test](https://github.com/secicciari/MechaCar_Statistical_Analysis/blob/main/resources/lot1_ttest.PNG)
 ![Lot2 t-test](https://github.com/secicciari/MechaCar_Statistical_Analysis/blob/main/resources/lot2_ttest.PNG)
